@@ -2,7 +2,7 @@
 		background-color:  #e7dcd9;
 		color:		   #331c01;
 
-		font-family: Times New Roman;
+		font-family: "Times New Roman";
 		font-size:   135%;
 		font-weight: 600;
 
@@ -88,8 +88,8 @@
 }
 
 
-	div#solo {
-		text-align: ;
+	#solo {
+
 	
 }
 
