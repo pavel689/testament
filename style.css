@@ -1,14 +1,13 @@
 	body {
-		background-color:  #e7dcd9;
+		background-color:  #cec0e2;
 		color:		   #331c01;
 
 		font-family: "Times New Roman";
 		font-size:   135%;
 		font-weight: 600;
 
-		width: 700px;
-		margin-left: 25%;
-		margin-right: 25%;
+		
+		
 
 }
 
@@ -16,6 +15,7 @@
 		font-size: 140%;
 		text-align: center;
 		text-decoration: none;
+		color: #f6992b;
 
 
 }
@@ -43,14 +43,21 @@
 }
 
 
-	#container {
-		
+	div#container {
+		width: 800px;
+		margin: auto;
 		background-color: #997bc5;
 		padding: 10px;
+		border: solid #f6992b 3px;
 		border-radius: 10px;
-
+		border-color: #f6992b;
 
 }
+
+	div#secondcon {
+		margin: 10px;
+}
+
 
 
 
@@ -93,5 +100,35 @@
 	
 }
 
+	ol {
+		padding-left: 81px;
+}
+
+	div#info {
+		text-align: end;
+}
 	
-	
+
+
+	img.cover {
+		width: 125px;
+}
+
+	.header {
+		
+		
+}
+
+	.header span {
+		margin-left: -999em;
+		position: absolute;
+}
+
+	.header:hover span {
+		
+		margin-left: 0;
+		left: 12.6em;
+		top: 4em;
+		
+
+}
