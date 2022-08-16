@@ -1,4 +1,6 @@
 	body {
+		background-image: url(https://cdnb.artstation.com/p/assets/images/images/045/641/315/large/deadface-legacy-final.jpg?1643198576);
+		background-repeat: round;
 		background-color:  #cec0e2;
 		color:		   #331c01;
 
@@ -15,7 +17,7 @@
 		font-size: 140%;
 		text-align: center;
 		text-decoration: none;
-		color: #f6992b;
+		color: #f0b415;
 
 
 }
@@ -42,20 +44,44 @@
 		color: #f4bd13;
 }
 
+	a:active {
+		color: #dadada;
+}
+
+	div#info {
+		font-size: 85%;
+		padding: 0px 20px 0px 20px;
+		text-align: justify;
+		
+}
+
+	div#info em {
+		color: #f0b415;
+}
+
+
 
 	div#container {
-		width: 800px;
+		
+		width: 880px;
 		margin: auto;
-		background-color: #997bc5;
+		margin-top: 275px;
+
+		background-color: rgba(153, 123, 197, .95);
+		
+		
+
+
 		padding: 10px;
-		border: solid #f6992b 3px;
+		border: ridge rgba(240, 180, 21, .9) 5px;
 		border-radius: 10px;
-		border-color: #f6992b;
+		
 
 }
 
 	div#secondcon {
-		margin: 10px;
+		margin: 20px;
+		
 }
 
 
@@ -65,6 +91,7 @@
 		display: table;
 		border-spacing: 8px;
 		margin: auto;
+		padding: 40px 0px 0px 0px;
 
 
 
@@ -72,6 +99,7 @@
 
 	div.tablerow {
 		display: table-row;
+		
 
 
 		
@@ -80,7 +108,7 @@
 	.bar {
 		display: table-cell;
 		padding: 5px 15px 5px 15px;
-		border: solid  1.5px black;
+		border: solid  1.6px black;
 		border-radius: 8px;
 		vertical-align: top;
 		text-align: center;
@@ -95,17 +123,38 @@
 }
 
 
-	#solo {
 
-	
+	div.firstline {
+		color:     #f0b415;
+
 }
+
+
 
 	ol {
 		padding-left: 81px;
 }
 
-	div#info {
-		text-align: end;
+	div#article {
+		text-align: right;
+		
+}
+
+	div#article a {
+		padding: 5px;
+		
+}
+
+	div#article a:visited {
+		color: #f0b415;
+		
+}
+
+	div#article a:hover {
+		color: #f0b415;
+		border: dotted #f0b415 2px;
+		border-radius: 5px;
+		
 }
 	
 
@@ -114,10 +163,7 @@
 		width: 125px;
 }
 
-	.header {
-		
-		
-}
+
 
 	.header span {
 		margin-left: -999em;
@@ -127,7 +173,7 @@
 	.header:hover span {
 		
 		margin-left: 0;
-		left: 12.6em;
+		left: 8em;
 		top: 4em;
 		
 
