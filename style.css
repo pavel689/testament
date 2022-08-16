@@ -1,13 +1,16 @@
 	body {
 		background-image: url(https://cdnb.artstation.com/p/assets/images/images/045/641/315/large/deadface-legacy-final.jpg?1643198576);
-		background-repeat: round;
+		
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size:     1365px 1300px;
+
 		background-color:  #cec0e2;
 		color:		   #331c01;
 
-		font-family: "Times New Roman";
+		font-family: Georgia, "Times New Roman", Times, serif;
 		font-size:   135%;
 		font-weight: 600;
-
 		
 		
 
@@ -49,9 +52,11 @@
 }
 
 	div#info {
-		font-size: 85%;
+		font-size: 88%;
 		padding: 0px 20px 0px 20px;
 		text-align: justify;
+		line-height: 130%;
+
 		
 }
 
@@ -65,7 +70,7 @@
 		
 		width: 880px;
 		margin: auto;
-		margin-top: 275px;
+		margin-top: 290px;
 
 		background-color: rgba(153, 123, 197, .95);
 		
