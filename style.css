@@ -3,13 +3,13 @@
 		
 		background-repeat: no-repeat;
 		background-position: top;
-		background-size:     1365px 1300px;
+		background-size:     1520px 1400px;
 
 		background-color:  #cec0e2;
 		color:		   #331c01;
 
 		font-family: Georgia, "Times New Roman", Times, serif;
-		font-size:   135%;
+		font-size:   115%;
 		font-weight: 600;
 		
 		
@@ -52,7 +52,7 @@
 }
 
 	div#info {
-		font-size: 88%;
+		
 		padding: 0px 20px 0px 20px;
 		text-align: justify;
 		line-height: 130%;
@@ -70,7 +70,7 @@
 		
 		width: 880px;
 		margin: auto;
-		margin-top: 290px;
+		margin-top: 310px;
 
 		background-color: rgba(153, 123, 197, .95);
 		
@@ -181,5 +181,21 @@
 		left: 8em;
 		top: 4em;
 		
+
+}
+
+
+	@media screen and (max-device-width: 480px) {
+
+		body {
+			background-size: 1500px 1750px;
+}
+		div#info {
+			
+}
+		div#list {
+			font-size: 145%;
+}
+
 
 }
