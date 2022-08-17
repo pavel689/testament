@@ -97,7 +97,8 @@
 		border-spacing: 8px;
 		margin: auto;
 		padding: 40px 0px 0px 0px;
-		text-align: justify;
+		text-align: center;
+		vertical-align: middle;
 		
 
 
@@ -148,6 +149,7 @@
 }
 
 	div#article a {
+		font-size: 150%;
 		padding: 5px;
 		
 }
@@ -190,28 +192,48 @@
 	@media screen and (max-device-width: 480px) {
 
 		body {
-			background-size: 1500px 1750px;
+			background-size: 1750px 1700px;
 	}
+
+		div#container {
+			padding: 1px;
+}
+
+		div#secondcon {
+			margin: 2px;
+}
+
 		div#info {
 			
 	}
 		div#list {
 			font-size: 145%;
+			
 	}
 
 
 		h1 {
-			font-size: 340%;
+			font-size: 400%;
 	}
 
 		div#info {
-			font-size: 200%;
+			font-size: 300%;
 	}
 
 		div#list {
 			font-size: 170%;
 	}
 
+
+		div#solo {
+			font-size: 200%;
+}
+
+
+}
+
+		div#article a {
+			
 }
 
 	
