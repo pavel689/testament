@@ -52,7 +52,7 @@
 }
 
 	div#info {
-		
+		font-size: 100%;
 		padding: 0px 20px 0px 20px;
 		text-align: justify;
 		line-height: 130%;
@@ -97,6 +97,8 @@
 		border-spacing: 8px;
 		margin: auto;
 		padding: 40px 0px 0px 0px;
+		text-align: justify;
+		
 
 
 
@@ -189,13 +191,27 @@
 
 		body {
 			background-size: 1500px 1750px;
-}
+	}
 		div#info {
 			
-}
+	}
 		div#list {
 			font-size: 145%;
-}
+	}
 
 
+		h1 {
+			font-size: 340%;
+	}
+
+		div#info {
+			font-size: 200%;
+	}
+
+		div#list {
+			font-size: 170%;
+	}
+
 }
+
+	
