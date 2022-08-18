@@ -82,7 +82,7 @@
 
 
 		padding: 10px;
-		border: ridge rgba(240, 180, 21, .9) 5px;
+		border: ridge rgba(240, 180, 21, .9) 4px;
 		border-radius: 10px;
 		
 
@@ -98,7 +98,7 @@
 
 	div#list {
 		display: table;
-		border-spacing: 8px;
+		border-spacing: 6px;
 		margin: auto;
 		padding: 40px 0px 0px 0px;
 		text-align: center;
@@ -204,6 +204,8 @@
 			padding: 1px;
 			margin-top: 0px;
 			width:	    auto;
+
+			border: ridge rgba(240, 180, 21, .9) 7px;
 }
 
 		div#secondcon {
