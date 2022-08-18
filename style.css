@@ -17,7 +17,7 @@
 }
 
 	h1 {
-		font-size: 140%;
+		font-size: 160%;
 		text-align: center;
 		text-decoration: none;
 		color: #f0b415;
@@ -120,6 +120,7 @@
 		border-radius: 8px;
 		vertical-align: top;
 		text-align: center;
+		vertical-align: middle;
 
 		
 
@@ -192,11 +193,13 @@
 	@media screen and (max-device-width: 480px) {
 
 		body {
-			background-size: 1750px 1700px;
+			background-size: 1750px 3050px;
 	}
 
 		div#container {
 			padding: 1px;
+			margin-top: 0px;
+			width:	    auto;
 }
 
 		div#secondcon {
@@ -213,7 +216,18 @@
 
 
 		h1 {
-			font-size: 400%;
+			font-size: 420%;
+			
+			
+	}
+
+		.bar {
+			border: solid 2.5px black;
+			
+	}
+
+		.bar a {
+			font-size: 120%;
 	}
 
 		div#info {
@@ -221,19 +235,26 @@
 	}
 
 		div#list {
-			font-size: 170%;
+			font-size: 195%;
 	}
 
 
 		div#solo {
 			font-size: 200%;
-}
+	}
+
+
+		div#firstline {
+			font-size: 200%;
+	}
+
+		div#article {
+			font-size: 180%;
+	}
 
 
 }
 
-		div#article a {
-			
-}
+		
 
 	
