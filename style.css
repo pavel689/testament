@@ -166,7 +166,7 @@
 
 	div#article a:hover {
 		color: #f0b415;
-		border: dotted #f0b415 2px;
+		border: double #f0b415 3px;
 		border-radius: 5px;
 		
 }
@@ -206,7 +206,7 @@
 			width:	    auto;
 
 			border: ridge rgba(240, 180, 21, .9) 7px;
-			background-color: rgba(153, 123, 197, .88);
+			background-color: rgba(153, 123, 197, .91);
 }
 
 		div#secondcon {
