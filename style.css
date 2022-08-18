@@ -6,7 +6,7 @@
 		background-size:     1520px 1400px;
 
 		background-color:  #cec0e2;
-		color:		   #331c01;
+		color:		   #331c01eb;
 
 		font-family: Georgia, "Times New Roman", Times, serif;
 		font-size:   115%;
@@ -20,7 +20,7 @@
 		font-size: 160%;
 		text-align: center;
 		text-decoration: none;
-		color: #f0b415;
+		color: #331c01;
 
 
 }
@@ -58,6 +58,10 @@
 		line-height: 130%;
 
 		
+}
+
+	div#info strong {
+		color: #dadadaf0;
 }
 
 	div#info em {
@@ -134,7 +138,7 @@
 
 
 	div.firstline {
-		color:     #f0b415;
+		
 
 }
 
