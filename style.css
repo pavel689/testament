@@ -82,7 +82,7 @@
 
 
 		padding: 10px;
-		border: ridge #83817ae6 4px;
+		border: ridge #83817ae6 5px;
 		border-radius: 10px;
 		
 
@@ -215,7 +215,7 @@
 			margin-top: 0px;
 			width:	    auto;
 
-			border: ridge rgba(240, 180, 21, .9) 7px;
+			border: ridge #83817ae6 10px;
 			background-color: rgba(153, 123, 197, .92);
 }
 
