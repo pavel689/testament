@@ -262,8 +262,14 @@
 	}
 
 
-		div#firstline {
-			font-size: 200%;
+		div.firstline {
+			border: solid 4px;
+   			border-color: #d8d4cb #d8d4cb #272725 #272725;
+	}
+
+		div.secondline {
+			border: solid 4px;
+    			border-color: #d8d4cb #272725 #272725 #d8d4cb;
 	}
 
 		div#article {
