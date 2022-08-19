@@ -62,9 +62,7 @@
 		
 }
 
-	div#info strong {
-		color: #dadadaf0;
-}
+	
 
 	div#info em {
 		color: #f0b415;
@@ -84,7 +82,7 @@
 
 
 		padding: 10px;
-		border: ridge rgba(240, 180, 21, .9) 4px;
+		border: ridge #83817ae6 4px;
 		border-radius: 10px;
 		
 
@@ -122,8 +120,8 @@
 	.bar {
 		display: table-cell;
 		padding: 5px 15px 5px 15px;
-		border: outset  2px #f0b415;
-		border-radius: 8px;
+		border: solid  2px #f0b415;
+		border-radius: 4px;
 		vertical-align: top;
 		text-align: center;
 		vertical-align: middle;
@@ -140,14 +138,22 @@
 
 
 	div.firstline {
-		
+		border: solid 2px;
+		border-color: #d8d4cb #d8d4cb #272725 #272725;
 
+}
+
+	div.secondline {
+		border: solid 2px;
+		border-color: #d8d4cb #272725 #272725 #d8d4cb;
 }
 
 
 
 	ol {
 		padding-left: 81px;
+		
+		
 }
 
 	div#article {
@@ -210,7 +216,7 @@
 			width:	    auto;
 
 			border: ridge rgba(240, 180, 21, .9) 7px;
-			background-color: rgba(153, 123, 197, .91);
+			background-color: rgba(153, 123, 197, .92);
 }
 
 		div#secondcon {
@@ -234,7 +240,7 @@
 
 		.bar { 
 			border: outset  3.8px #f0b415;
-			padding: 0px;
+			padding: 2px;
 			
 	}
 
