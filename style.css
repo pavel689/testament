@@ -1,9 +1,9 @@
 	body {
-		background-image: url(https://cdnb.artstation.com/p/assets/images/images/045/641/315/large/deadface-legacy-final.jpg?1643198576);
+		background-image: url(https://cdnb.artstation.com/p/assets/images/images/045/641/315/large/deadface-legacy-final.jpg?1643198576), url(https://img.freepik.com/premium-vector/rustic-blak-brick-wall-background_92086-243.jpg);
 		
-		background-repeat: no-repeat;
+		background-repeat: no-repeat, repeat;
 		background-position: top;
-		background-size:     1520px 1400px;
+		background-size: 1330px, 500px;
 
 		background-color:  #cec0e2;
 		color:		   #331c01eb;
@@ -13,14 +13,18 @@
 		font-weight: 600;
 		
 		
+}		
+		
 
-}
+
+
+
 
 	h1 {
 		font-size: 160%;
 		text-align: center;
 		text-decoration: none;
-		color: #331c01;
+		color: #331c01eb;
 
 
 }
@@ -70,7 +74,9 @@
 
 
 
+
 	div#container {
+		
 		
 		width: 880px;
 		margin: auto;
@@ -79,17 +85,12 @@
 		background-color: rgba(153, 123, 197, .95);
 		
 		
+		
 
 
 		padding: 10px;
 		border: ridge #83817ae6 5px;
 		border-radius: 10px;
-		
-
-}
-
-	div#secondcon {
-		margin: 20px;
 		
 }
 
@@ -97,10 +98,11 @@
 
 
 	div#list {
+
 		display: table;
 		border-spacing: 6px;
-		margin: auto;
-		padding: 40px 0px 0px 0px;
+		margin: 40px 50px 10px 50px;
+		
 		text-align: center;
 		vertical-align: middle;
 		
@@ -146,6 +148,7 @@
 	div.secondline {
 		border: solid 2px;
 		border-color: #d8d4cb #272725 #272725 #d8d4cb;
+
 }
 
 
@@ -220,20 +223,19 @@
 }
 
 		div#secondcon {
-			margin: 2px;
+			margin: auto;
+			width: auto;
 }
 
-		div#info {
-			
-	}
 		div#list {
 			font-size: 145%;
+			margin: auto;
 			
 	}
 
 
 		h1 {
-			font-size: 420%;
+			font-size: 380%;
 			
 			
 	}
@@ -249,7 +251,7 @@
 	}
 
 		div#info {
-			font-size: 300%;
+			font-size: 260%;
 	}
 
 		div#list {
