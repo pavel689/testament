@@ -15,9 +15,15 @@
 		
 }		
 		
+	nav {
+		text-decoration: none;
+		text-align: right;
+		list-style-type: none;
+}
 
-
-
+	nav ul {
+		list-style-type: none; 
+}
 
 
 	h1 {
@@ -101,7 +107,7 @@
 
 
 
-	div#list {
+	table#list {
 
 		display: table;
 		border-spacing: 6px;
@@ -113,19 +119,17 @@
 		
 		text-align: center;
 		vertical-align: middle;
-		
-
 
 
 }
 
 
-	div#list  a {
+	table#list  a {
 		
 		padding: 6px 40px 6px 40px;
 }
 
-	div.tablerow {
+	tr.tablerow {
 		display: table-row;
 		
 
@@ -133,7 +137,7 @@
 		
 }
 
-	div.bar {
+	th.bar {
 		display: table-cell;
 		padding: 6px;
 		border: solid  2px #f0b415;
@@ -150,25 +154,26 @@
 	
 
 
-	div.bar p {
+	th.bar p {
 		margin: 0px;
 }
 
 
 
-	div.firstline {
+	th.firstline {
 		border: solid 2px;
 		border-color: #d8d4cb #d8d4cb #272725 #272725;
 
 }
 
-	div.secondline {
+	th.secondline {
 		border: solid 2px;
 		border-color: #d8d4cb #272725 #272725 #d8d4cb;
 
 }
 
 
+	
 
 
 	div#solo {
@@ -251,13 +256,13 @@
 			width: auto;
 }
 
-		div#list {
+		table#list {
 			font-size: 145%;
 			margin: auto;
 			
 	}
 
-		div#list a {
+		table#list a {
 			padding: 0px;
 }
 
@@ -282,7 +287,7 @@
 			line-height: 120%;
 	}
 
-		div#list {
+		table#list {
 			font-size: 195%;
 	}
 
@@ -292,12 +297,12 @@
 	}
 
 
-		div.firstline {
+		th.firstline {
 			border: solid 4px;
    			border-color: #d8d4cb #d8d4cb #272725 #272725;
 	}
 
-		div.secondline {
+		th.secondline {
 			border: solid 4px;
     			border-color: #d8d4cb #272725 #272725 #d8d4cb;
 	}
