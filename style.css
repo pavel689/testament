@@ -25,6 +25,8 @@
 		text-align: center;
 		text-decoration: none;
 		color: #331c01eb;
+		padding: 10px;
+		margin: 20px;
 
 
 }
@@ -58,8 +60,10 @@
 }
 
 	div#info {
-		font-size: 100%;
-		padding: 0px 20px 0px 20px;
+		
+		padding: 5px;
+		margin: 20px;
+
 		text-align: justify;
 		line-height: 130%;
 
@@ -101,7 +105,11 @@
 
 		display: table;
 		border-spacing: 6px;
-		margin: 40px 50px 10px 50px;
+		margin: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+
+		padding: 4px;
 		
 		text-align: center;
 		vertical-align: middle;
@@ -109,6 +117,12 @@
 
 
 
+}
+
+
+	div#list  a {
+		
+		padding: 6px 40px 6px 40px;
 }
 
 	div.tablerow {
@@ -119,18 +133,21 @@
 		
 }
 
-	.bar {
+	div.bar {
 		display: table-cell;
-		padding: 5px 15px 5px 15px;
+		padding: 6px;
 		border: solid  2px #f0b415;
 		border-radius: 4px;
 		vertical-align: top;
 		text-align: center;
 		vertical-align: middle;
 
+		background-color: rgba(153, 123, 197, .70);
 		
-
+		
 }
+
+	
 
 
 	div.bar p {
@@ -153,8 +170,15 @@
 
 
 
+
+	div#solo {
+		margin: 20px;
+		padding: 10px;
+}
+
+
 	ol {
-		padding-left: 81px;
+		padding-left: 80px;
 		
 		
 }
@@ -233,6 +257,9 @@
 			
 	}
 
+		div#list a {
+			padding: 0px;
+}
 
 		h1 {
 			font-size: 380%;
@@ -252,6 +279,7 @@
 
 		div#info {
 			font-size: 260%;
+			line-height: 120%;
 	}
 
 		div#list {
