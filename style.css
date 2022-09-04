@@ -327,6 +327,10 @@
 		div#table_container {
 			width: 1060px;
 }
+	
+		div#table_container h2{
+			font-size: 250%;
+}
 
 		div#maintable {
 			padding: 1px;
