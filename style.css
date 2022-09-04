@@ -272,30 +272,26 @@
 
 	
 
-	div#article {
+	p#article {
 		text-align: right;
-			
-		
-}
-
-	div#article a {
 		font-size: 150%;
 		
 }
 
-	div#article a:visited {
+	
+	p#article a:visited {
 		color: #f0b415;
 		
 }
 
-	div#article a:hover {
+	p#article a:hover {
 		color: #f0b415;
 		
 		
 }
 	
 
-	div#article a:active {
+	p#article a:active {
 		color: #dadada;
 }
 
@@ -347,7 +343,7 @@
 }
 
 		table#list {
-			font-size: 145%;
+			font-size: 180%;
 			margin: auto;
 			
 	}
@@ -355,6 +351,12 @@
 		table#list a {
 			padding: 0px;
 }
+
+		table#list2 {
+			font-size: 180%;
+			border-spacing: 8px;
+}
+
 
 		h1 {
 			font-size: 340%;
@@ -379,13 +381,21 @@
 			font-size: 120%;
 	}
 
-		div#info {
+		div#info_up {
 			margin: auto;
 			margin-top: 0px;
 		
 	}
 
 		
+		p#article {
+			font-size: 180%;
+	}
+	
+		div#info_up p {
+			font-size: 200%;
+			line-height: 130%;
+}
 
 		div#solo {
 			font-size: 200%;
@@ -403,9 +413,7 @@
     			border-color: #d8d4cb #272725 #272725 #d8d4cb;
 	}
 
-		div#article {
-			font-size: 180%;
-	}
+		
 
 
 }
